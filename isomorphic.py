@@ -1,17 +1,17 @@
-a=raw_input()
-b=raw_input()
-c=0
-d=0
-if(len(a)==len(b)):
-  for i in range(0,len(a)-1,1):
-     if(a[i]==a[i+1]):
-     	c=c+1
-     if(b[i]==b[i+1]):
-     	d=d+1
-     if(c!=d):
+x=raw_input()
+y=raw_input()
+z=0
+t=0
+if(len(x)==len(y)):
+  for i in range(0,len(x)-1,1):
+     if(x[i]==x[i+1]):
+     	z=z+1
+     if(y[i]==y[i+1]):
+     	t=t+1
+     if(z!=y):
      	print no
      	break
-  if(c==d):
+  if(z==t):
      print yes
 else:
      print no
