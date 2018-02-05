@@ -1,1 +1,1 @@
-print(input().title())
+print(input("Enter").title())
